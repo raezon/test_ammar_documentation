@@ -4,4 +4,4 @@ FROM node:14.17-alpine
 RUN npm install npx
 
 ## Lunch documentation serve
-RUN npx server
+RUN npx serve
